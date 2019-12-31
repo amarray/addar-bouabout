@@ -1,0 +1,49 @@
+
+html {
+	scroll-behavior: smooth;
+}
+body{
+    font-family: 'MarkaziText', tahome;
+}
+
+.nav a{
+    font-family: 'reem', tahome;
+    color: #aaa69d !important;
+    font-weight: 500;
+    padding: 15px 0 5px 0;
+    margin-right: 20px;
+}
+.nav a:hover{
+    color:#ff793f !important;
+    
+}
+
+.index{
+    background-image:linear-gradient(rgba(0,0,0,.8),rgba(255,121,63,.8)),url(../img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.jumbotron{
+    padding: 10px !important;
+}
+
+.lien{
+    font-size: 14px;
+}
+
+
+@font-face {
+  font-family: tifinagh;
+  src:url(../fonts/T_I_Prime.ttf);
+}
+@font-face {
+  font-family: reem;
+  src:url(../fonts/ReemKufi-Regular.ttf);
+}
+@font-face {
+  font-family: MarkaziText;
+  src:url(../fonts/MarkaziText-VariableFont_wght.ttf);
+}
